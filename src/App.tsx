@@ -3,7 +3,7 @@ import { hot } from "react-hot-loader";
 import { Card, Input, DatePicker } from "antd";
 import styles from "./app.module.scss";
 
-const App: React.FC<unknown> = () => {
+export const App: React.FC<unknown> = () => {
   return (
     <div className={styles.app}>
       <Card>
